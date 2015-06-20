@@ -1,0 +1,23 @@
+Purpose:
+
+CoolWeather automatically provides the user with a weather forcast
+based on their geographic location. The forecast consists of the expected
+weather for the day, and for and extended 5 day forecast.
+
+Requirements:
+
+Functional
+
+1. Automatically provide the user with the day's expected weather 
+for their location on page load.
+2. Provide a 5 day extended forecast.
+3. Forecast items shall included temperature, a description of the weather, wind,
+high and low, and the date.
+4. Alert the user to any errors and suggest ways to fix them.
+5. Coding should be done using the principles of OOP.
+6. All functionality shall be coded in plain javascript.
+
+Non-Functional
+
+1. The app shall be intuitive.
+2. The user shall obtain the information with minimal actions on their part.
