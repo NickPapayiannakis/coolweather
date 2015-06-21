@@ -8,12 +8,12 @@ Requirements:
 
 Functional
 
-1. Automatically provide the user with the day's expected weather 
+DONE 1. Automatically provide the user with the day's expected weather 
 for their location on page load.
 2. Provide a 5 day extended forecast.
 3. Forecast items shall included temperature, a description of the weather, wind,
 high and low, and the date.
-4. Alert the user to any errors and suggest ways to fix them.
+DONE 4. Alert the user to any errors and suggest ways to fix them.
 5. Coding should be done using the principles of OOP.
 6. All functionality shall be coded in plain javascript.
 

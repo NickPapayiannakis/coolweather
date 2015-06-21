@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>An experiment in GeoLocation</title>
+  <title>Coolweather</title>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,18 +18,73 @@
     <h3 id="message"></h3>
 	  
     <div id="center">
-
-	    <h1 id="temp"></h1>
-	    <h2 id="location"></h2>
+      
+      <div id="todayConditions">
+        <canvas id="iconMain" width="120" height="120"></canvas>
+        <h1 id="tempToday"></h1>
+        <h2 id="location"></h2>
+        
+      </div>
+	
 	    <h2 id="description"></h2>
-	    <h2 id="wind"></h2>
-      <p id="signature"></p>
 
-	  </div>
+      <!-- Weather forecast table -->
+      <table>
+        
+        <thead>
 
-	</div>
+          <tr id="headers">
+            <th>Today</th>
+            <th>Tomorrow</th>
+            <th></th>
+            <th></th>
+          </tr>
+
+        </thead>
+
+        <tbody>
+         
+          <tr id="icons">
+
+          <!--icons-->
+            <td><canvas id="iconToday" width="60" height="60"></canvas></td>
+            <td><canvas id="iconTomorrow" width="60" height="60"></canvas></td>
+            <td><canvas id="iconDay3" width="60" height="60"></canvas></td>
+            <td><canvas id="iconDay4" width="60" height="60"></canvas></td>
+          </tr>
+
+          <!--highs-->  
+          <tr id="highs">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!--lows-->
+          <tr id="lows">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <!--descriptions-->
+          <tr id="descriptions">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+	  </div> <!--End 'center' Div-->
+
+	</div><!--End 'siteContainer' Div-->
 
 </body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="js/test.js"></script>
+  <script src="js/skycons.js"></script>
+	<script src="js/coolweather.js"></script>
 </html>
